@@ -25,4 +25,10 @@ Counter.propTypes = {
   onDecrement: PropTypes.func.isRequired,
 };
 
+Counter.defaultProps = {
+  count: 0,
+  onIncrement: () => {},
+  onDecrement: () => {},
+};
+
 export default Counter;
