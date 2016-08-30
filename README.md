@@ -8,7 +8,6 @@ React Redux Isomorphic Counter
 
 * react
 * redux
-* react-router
 * immutable-js
 * redux-actions
 * redux-logger
