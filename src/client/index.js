@@ -2,9 +2,9 @@ import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { fromJS } from 'immutable';
 import Counter from '../common/containers/Counter';
 import configureStore from '../common/store';
-import { fromJS } from 'immutable';
 
 const initialState = window.__PRELOADED_STATE__;
 
