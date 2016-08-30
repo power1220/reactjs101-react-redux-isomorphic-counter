@@ -8,7 +8,7 @@ import {
 } from '../../actions';
 
 const mapStateToProps = (state) => ({
-  count: state.getIn(['count', 'count']),
+  count: state.get('counter').get('count'),
 });
 
 const mapDispatchToProps = (dispatch) => ({
